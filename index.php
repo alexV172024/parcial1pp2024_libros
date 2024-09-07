@@ -43,7 +43,7 @@ if (getcwd() . DIRECTORY_SEPARATOR !== FCPATH) {
  * and fires up an environment-specific bootstrapping.
  */
 
-// LOAD OUR PATHS CONFIG FILE
+// LOAD OUR PATHS CONFIG FI
 // This is the line that might need to be changed, depending on your folder structure.
 require FCPATH . '../app/Config/Paths.php';
 // ^^^ Change this line if you move your application folder
