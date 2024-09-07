@@ -6,12 +6,12 @@ use App\Models\M_libro;
 
 class Libros extends Controller
 {
-    public function index()
-    {
-        $libro = new M_libro();
-        $datos['libros'] = $libro->findAll();
-        return view('libros', $datos);
-    }
+  public function index()
+{
+    $libro = new M_libro();
+    $datos['libros'] = $libro->findAll();
+    return view('libros', $datos);
+}
 
     public function agregar()
     {
